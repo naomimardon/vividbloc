@@ -134,8 +134,18 @@
   font-style: italic;
 }
 
-.circle {
+.discoverButton {
+  height: 29px;
   position: relative;
-  top: 382px;
-  left: 879px;
+  top: 317px;
+  left: 119px;
+  font-family: var(--fontSecondary);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28.79px;
+  color: #FFFFFF !important;
+  font-style: italic;
+  border-style: solid !important;
+  border-width: 0px 0px 1px !important;
+  border-image: -webkit-linear-gradient(360deg, #1044FC, #C6ACF5,#F190DF, #fff5B7) 1 !important;
 }
