@@ -5,6 +5,13 @@
   --fontTertiary: 'Irish Grover';
 }
 
+.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  background: none !important;
+}
+
 .vividblocText {
   font-family: var(--fontSecondary);
   font-weight: 400;
@@ -37,6 +44,7 @@
 }
 
 .close {
+  position: relative;
   top: 20px;
   left: 266px;
   font-family: var(--fontSecondary);
@@ -67,4 +75,67 @@
 
 .menuIcon {
   padding: 0px 10px ;
+}
+
+.heroDesktop {
+  position: relative;
+  top: 63px;
+}
+
+.vividblocEllipse {
+  width: 147px;
+  height: 27px;
+  position: relative;
+  top: 317px;
+  left: 144px;
+  font-family: var(--fontTertiary);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26.6px;
+  background: -webkit-linear-gradient(left, #1044FC, #C6ACF5,#F190DF, #fff5B7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px 5px;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-image: -webkit-linear-gradient(360deg, #1044FC, #C6ACF5,#F190DF, #fff5B7) 1;
+}
+
+.heroTitle {
+  width: 738px;
+  height: 48px;
+  position: relative;
+  top: 317px;
+  left: 119px;
+  font-family: var(--fontMain);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.41px;
+  color: #FFFFFF !important;
+}
+
+#story {
+  font-style: italic;
+  background: -webkit-linear-gradient(left, #1044FC, #C6ACF5,#F190DF, #fff5B7);
+}
+
+.heroSubHeading {
+  width: 559px;
+  height: 29px;
+  position: relative;
+  top: 317px;
+  left: 119px;
+  font-family: var(--fontMain);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29.05px;
+  color: #FFFFFF !important;
+  font-style: italic;
+}
+
+.circle {
+  position: relative;
+  top: 382px;
+  left: 879px;
 }

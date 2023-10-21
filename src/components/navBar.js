@@ -8,7 +8,6 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
-import './navBar.css';
 
 const Navbar = () => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -23,7 +22,7 @@ const Navbar = () => {
 
     return (
         <AppBar className='navbar' position="static">
-            <Container maxWidth="xl">
+            <Container maxWidth="xl" >
                 <Toolbar disableGutters>
                     <Typography
                         className='vividblocText'
@@ -61,7 +60,7 @@ const Navbar = () => {
                                 flexGrow: 1,
                             }}
                         >
-                            vividbloc.studio2
+                            vividbloc.studio
                         </Typography>
                         <IconButton
                             size="large"
