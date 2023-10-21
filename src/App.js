@@ -11,9 +11,7 @@ const App = () => {
         </Routes>
     </div>
     <div>
-      <p className='inter'>Inter</p>
-      <p className='istok'>Istok Web</p>
-      <p className='irish'>Irish Grover</p>
+      
     </div>
   </Router>
   );

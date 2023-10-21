@@ -5,3 +5,66 @@
   --fontTertiary: 'Irish Grover';
 }
 
+.vividblocText {
+  font-family: var(--fontSecondary);
+  font-weight: 400;
+  background: -webkit-linear-gradient(left, #1044FC, #C6ACF5,#F190DF, #fff5B7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.menu {
+  width: 45px;
+  height: 26px;
+  font-family: var(--fontSecondary) !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 25.91px !important;
+  display: flex !important;
+  margin-top: 32px !important;
+  margin-right: 32px !important;
+}
+
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  background: #030303 !important;
+  width: 337px;
+  height: 444px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-image: -webkit-linear-gradient(360deg, #1044FC, #C6ACF5,#F190DF, #fff5B7) 1;
+}
+
+.close {
+  top: 20px;
+  left: 266px;
+  font-family: var(--fontSecondary);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.91px;
+  color: #FFFFFF !important;
+}
+
+.menuItem {
+  font-family: var(--fontMain) !important;
+  font-weight: 700 !important;
+  font-style: italic;
+  font-size: 32px !important;
+  line-height: 20px !important;
+  color: #FFFFFF;
+  margin: 15px 8px !important;
+}
+
+.menuSocials {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  margin: 50px 8px;
+  padding: 20px;
+  border-top: solid 1px #474747;
+}
+
+.menuIcon {
+  padding: 0px 10px ;
+}
