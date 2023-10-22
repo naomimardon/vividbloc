@@ -152,6 +152,7 @@
 
 .whoWeAre {
   height: 550px;
+  margin-top: 100px;
 }
 .whoWeAreTitle {
   width: 242px;
@@ -186,7 +187,7 @@
 }
 
 .ourCraft {
-  padding-top: 200px;
+  margin-top: 200px;
 }
 
 .ourCraftTitle {
@@ -209,4 +210,43 @@
   font-size: 24px;
   line-height: 34.55px;
   color: #FFFFFF !important;
+}
+
+.connect {
+  margin-top: 200px;
+  height: 279px;
+  background: -webkit-linear-gradient(left, #1044FC, #C6ACF5,#F190DF, #fff5B7);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.connectTitleDiv {
+  font-family: var(--fontMain);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.41px;
+}
+
+.connectTitle {
+  margin: 5px !important;
+}
+
+.connectText {
+  font-family: var(--fontSecondary);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28.79px;
+}
+
+.connectButtonDiv {
+  font-family: var(--fontSecondary);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28.79px;
+}
+
+.connectButton {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
 }
