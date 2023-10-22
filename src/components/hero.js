@@ -1,10 +1,9 @@
 import React from "react";
-import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 
 const Hero = () => {
     return (
-        <Container className="heroDesktop"
+        <div className="heroDesktop" 
             style={{
                 backgroundImage: `url("/images/899x808.png")`,
                 backgroundRepeat: "no-repeat",
@@ -22,7 +21,7 @@ const Hero = () => {
                     Discover Your Story
                 </Button>
             </div>
-        </Container>
+        </div>
     );
 };
 

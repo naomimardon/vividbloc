@@ -5,6 +5,7 @@ import WhoWeAre from "../components/whoWeAre";
 import OurCraft from "../components/ourCraft";
 import Connect from "../components/connect";
 import Footer from "../components/footer";
+import Testimonials from "../components/testimonials";
 
 const Homepage = () => {
 
@@ -14,6 +15,7 @@ const Homepage = () => {
             <Hero />
             <WhoWeAre />
             <OurCraft />
+            <Testimonials />
             <Connect />
             <Footer />
         </div>
