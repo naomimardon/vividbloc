@@ -305,12 +305,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26.32px;
-}
-
-a:-webkit-any-link {
-  padding-left: 50px;
   color: #1044FC;
-  text-decoration: none;
 }
 
 .connect {

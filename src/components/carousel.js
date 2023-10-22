@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
@@ -20,7 +19,7 @@ const Carousel = () => {
                             <p className="quote">“The video is fantastic, and has been really well received by those I’ve shared it with. Our CEO described it is ‘sensational’ and said it made his day.”</p>
                             <p className="name">Jane Doe</p>
                             <p className="company">SomeCompany LLC.</p>
-                            <Link classname="companyURL" to="https://somecompanyllc.co" target="_blank" end>https://somecompanyllc.co</Link>
+                            <p className="companyURL">https://somecompanyllc.co</p>
                         </Typography>
                     </Grid>
                 </Grid>
