@@ -149,3 +149,38 @@
   border-width: 0px 0px 1px !important;
   border-image: -webkit-linear-gradient(360deg, #1044FC, #C6ACF5,#F190DF, #fff5B7) 1 !important;
 }
+
+.whoWeAre {
+  height: 550px;
+}
+.whoWeAreTitle {
+  width: 242px;
+  height: 48px;
+  position: relative;
+  top: 50px;
+  left: 157px;
+  font-family: var(--fontMain);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.41px;
+  color: #FFFFFF !important;
+}
+
+.whoWeAreText {
+  width: 729px;
+  height: 116px;
+  position: relative;
+  top: 50px;
+  left: 157px;
+  font-family: var(--fontSecondary);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28.79px;
+  color:#E5E5E5 !important;
+}
+
+#logoSpan {
+  background: -webkit-linear-gradient(left, #1044FC, #C6ACF5,#F190DF, #fff5B7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
