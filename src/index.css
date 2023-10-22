@@ -184,3 +184,29 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.ourCraft {
+  padding-top: 200px;
+}
+
+.ourCraftTitle {
+  text-align: center;
+  font-family: var(--fontMain);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.41px;
+  color: #FFFFFF !important;
+}
+
+.craftImage {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 185px;
+  height: 35px;
+  font-family: var(--fontSecondary);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34.55px;
+  color: #FFFFFF !important;
+}
