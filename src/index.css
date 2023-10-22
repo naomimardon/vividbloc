@@ -1,8 +1,10 @@
 :root {
   background-color: #000000;
-  --fontMain: 'Inter', sans-serif;
-  --fontSecondary: 'Istok Web', sans-serif;
-  --fontTertiary: 'Irish Grover';
+  --fontInter: 'Inter', sans-serif;
+  --fontIstok: 'Istok Web', sans-serif;
+  --fontIrish: 'Irish Grover';
+  --fontQuantico: 'Quantico', sans-serif;
+  --fontPoppins: 'Poppins', sans-serif;
 }
 
 .navbar {
@@ -10,7 +12,7 @@
 }
 
 .vividblocText {
-  font-family: var(--fontSecondary);
+  font-family: var(--fontIstok);
   font-weight: 400;
   background: -webkit-linear-gradient(left, #1044FC, #C6ACF5,#F190DF, #fff5B7);
   -webkit-background-clip: text;
@@ -21,7 +23,7 @@
 .menu {
   width: 45px;
   height: 26px;
-  font-family: var(--fontSecondary) !important;
+  font-family: var(--fontIstok) !important;
   font-weight: 400 !important;
   font-size: 18px !important;
   line-height: 25.91px !important;
@@ -44,7 +46,7 @@
   position: relative;
   top: 20px;
   left: 266px;
-  font-family: var(--fontSecondary);
+  font-family: var(--fontIstok);
   font-weight: 400;
   font-size: 18px;
   line-height: 25.91px;
@@ -52,7 +54,7 @@
 }
 
 .menuItem {
-  font-family: var(--fontMain) !important;
+  font-family: var(--fontInter) !important;
   font-weight: 700 !important;
   font-style: italic;
   font-size: 32px !important;
@@ -84,7 +86,7 @@
   position: relative;
   top: 317px;
   left: 144px;
-  font-family: var(--fontTertiary);
+  font-family: var(--fontIrish);
   font-weight: 400;
   font-size: 22px;
   line-height: 26.6px;
@@ -104,7 +106,7 @@
   position: relative;
   top: 317px;
   left: 119px;
-  font-family: var(--fontMain);
+  font-family: var(--fontInter);
   font-weight: 700;
   font-size: 40px;
   line-height: 48.41px;
@@ -122,7 +124,7 @@
   position: relative;
   top: 317px;
   left: 119px;
-  font-family: var(--fontMain);
+  font-family: var(--fontInter);
   font-weight: 400;
   font-size: 24px;
   line-height: 29.05px;
@@ -135,7 +137,7 @@
   position: relative;
   top: 317px;
   left: 119px;
-  font-family: var(--fontSecondary);
+  font-family: var(--fontIstok);
   font-weight: 400;
   font-size: 20px;
   line-height: 28.79px;
@@ -158,7 +160,7 @@
   position: relative;
   top: 50px;
   left: 157px;
-  font-family: var(--fontMain);
+  font-family: var(--fontInter);
   font-weight: 700;
   font-size: 40px;
   line-height: 48.41px;
@@ -171,7 +173,7 @@
   position: relative;
   top: 50px;
   left: 157px;
-  font-family: var(--fontSecondary);
+  font-family: var(--fontIstok);
   font-weight: 400;
   font-size: 20px;
   line-height: 28.79px;
@@ -190,7 +192,7 @@
 
 .ourCraftTitle {
   text-align: center;
-  font-family: var(--fontMain);
+  font-family: var(--fontInter);
   font-weight: 700;
   font-size: 40px;
   line-height: 48.41px;
@@ -203,7 +205,7 @@
   justify-content: center;
   width: 185px;
   height: 35px;
-  font-family: var(--fontSecondary);
+  font-family: var(--fontIstok);
   font-weight: 400;
   font-size: 24px;
   line-height: 34.55px;
@@ -220,7 +222,7 @@
   position: relative;
   top: 50px;
   left: 157px;
-  font-family: var(--fontMain);
+  font-family: var(--fontInter);
   font-weight: 700;
   font-size: 40px;
   line-height: 48.41px;
@@ -233,11 +235,82 @@
   position: relative;
   top: 50px;
   left: 157px;
-  font-family: var(--fontSecondary);
+  font-family: var(--fontIstok);
   font-weight: 400;
   font-size: 20px;
   line-height: 28.79px;
   color:#E5E5E5 !important;
+}
+
+.quoteGrid {
+  display: flex;
+} 
+
+.quoteImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quoteGrid {
+  background: -webkit-linear-gradient( #171717 0%, #171717 100%, #171717 0%);
+  width: 964px;
+  height: 437px;
+}
+
+.woah {
+  width: 182px;
+  height: 86px;
+  padding-left: 50px;
+  font-family: var(--fontQuantico);
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 85.8px;
+  color: #FFFFFF;
+}
+
+.quote {
+  width: 484px;
+  height: 106px;
+  padding-left: 50px;
+  font-family: var(--fontPoppins);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26.32px;
+  color: #E5E5E5;
+}
+
+.name {
+  padding-left: 50px;
+  font-family: var(--fontPoppins);
+  font-weight: 800;
+  font-style: bold;
+  font-size: 16px;
+  line-height: 26.32px;
+  color: #FFFFFF;
+}
+
+.company {
+  padding-left: 50px;
+  font-family: var(--fontPoppins);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26.32px;
+  color: #FFFFFF;
+}
+
+.companyURL {
+  padding-left: 50px;
+  font-family: var(--fontPoppins);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26.32px;
+}
+
+a:-webkit-any-link {
+  padding-left: 50px;
+  color: #1044FC;
+  text-decoration: none;
 }
 
 .connect {
@@ -250,7 +323,7 @@
 }
 
 .connectTitleDiv {
-  font-family: var(--fontMain);
+  font-family: var(--fontInter);
   font-weight: 700;
   font-size: 40px;
   line-height: 48.41px;
@@ -261,14 +334,14 @@
 }
 
 .connectText {
-  font-family: var(--fontSecondary);
+  font-family: var(--fontIstok);
   font-weight: 400;
   font-size: 20px;
   line-height: 28.79px;
 }
 
 .connectButtonDiv {
-  font-family: var(--fontSecondary);
+  font-family: var(--fontIstok);
   font-weight: 400;
   font-size: 20px;
   line-height: 28.79px;
@@ -284,7 +357,7 @@
 }
 
 .footerLink {
-  font-family: var(--fontSecondary);
+  font-family: var(--fontIstok);
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
