@@ -6,9 +6,6 @@
 }
 
 .navbar {
-  position: fixed !important;
-  top: 0;
-  left: 0;
   background: none !important;
 }
 
@@ -65,7 +62,6 @@
 }
 
 .menuSocials {
-  color: #FFFFFF;
   display: flex;
   justify-content: center;
   margin: 50px 8px;
@@ -74,7 +70,7 @@
 }
 
 .menuIcon {
-  padding: 0px 10px ;
+  padding: 0px 10px;
 }
 
 .heroDesktop {
@@ -249,4 +245,28 @@
 .connectButton {
   background-color: #FFFFFF !important;
   color: #000000 !important;
+}
+
+.footer {
+  padding: 50px 10px;
+}
+
+.footerLink {
+  font-family: var(--fontSecondary);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF !important;
+  display: flex;
+  justify-content: center;
+}
+
+.footerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerIcon {
+  padding: 0px 10px;
 }

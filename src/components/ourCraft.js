@@ -10,7 +10,7 @@ const OurCraft = () => {
                     <h2>Our Craft</h2>
                 </Grid>
                 <Grid className="craftImage"
-                    item xs={3}
+                    item xs={12} md={3}
                     style={{
                         backgroundImage: `url("/images/Group7.png")`,
                         backgroundRepeat: "no-repeat",
@@ -20,7 +20,7 @@ const OurCraft = () => {
                     <p>Video Production</p>
                 </Grid>
                 <Grid className="craftImage"
-                    item xs={3}
+                    item xs={12} md={3}
                     style={{
                         backgroundImage: `url("/images/Group8.png")`,
                         backgroundRepeat: "no-repeat",
@@ -30,7 +30,7 @@ const OurCraft = () => {
                     <p>Talent Management</p>
                 </Grid>
                 <Grid className="craftImage"
-                    item xs={3}
+                    item xs={12} md={3}
                     style={{
                         backgroundImage: `url("/images/Group9.png")`,
                         backgroundRepeat: "no-repeat",
@@ -40,7 +40,7 @@ const OurCraft = () => {
                     <p>Personal Branding</p>
                 </Grid>
                 <Grid className="craftImage"
-                    item xs={3}
+                    item xs={12} md={3}
                     style={{
                         backgroundImage: `url("/images/Group10.png")`,
                         backgroundRepeat: "no-repeat",
