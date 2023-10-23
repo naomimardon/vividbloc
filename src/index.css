@@ -7,6 +7,8 @@
   --fontPoppins: 'Poppins', sans-serif;
 }
 
+/* navbar */
+
 .navbar {
   background: none !important;
 }
@@ -20,60 +22,7 @@
 
 }
 
-.menu {
-  width: 45px;
-  height: 26px;
-  font-family: var(--fontIstok) !important;
-  font-weight: 400 !important;
-  font-size: 18px !important;
-  line-height: 25.91px !important;
-  display: flex !important;
-  margin-top: 32px !important;
-  margin-right: 32px !important;
-}
-
-.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
-  background: #030303 !important;
-  width: 337px;
-  height: 444px;
-  border-radius: 10px;
-  border-style: solid;
-  border-width: 0.5px;
-  border-image: -webkit-linear-gradient(360deg, #1044FC, #C6ACF5,#F190DF, #fff5B7) 1;
-}
-
-.close {
-  position: relative;
-  top: 20px;
-  left: 266px;
-  font-family: var(--fontIstok);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25.91px;
-  color: #FFFFFF !important;
-}
-
-.menuItem {
-  font-family: var(--fontInter) !important;
-  font-weight: 700 !important;
-  font-style: italic;
-  font-size: 32px !important;
-  line-height: 20px !important;
-  color: #FFFFFF;
-  margin: 15px 8px !important;
-}
-
-.menuSocials {
-  display: flex;
-  justify-content: center;
-  margin: 50px 8px;
-  padding: 20px;
-  border-top: solid 1px #474747;
-}
-
-.menuIcon {
-  padding: 0px 10px;
-}
+/* hero */
 
 .heroDesktop {
   position: relative;
@@ -148,6 +97,8 @@
   border-image: -webkit-linear-gradient(360deg, #1044FC, #C6ACF5,#F190DF, #fff5B7) 1 !important;
 }
 
+/* who we are */
+
 .whoWeAre {
   height: 550px;
   margin-top: 100px;
@@ -186,6 +137,8 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* our craft */
+
 .ourCraft {
   margin-top: 200px;
 }
@@ -211,6 +164,8 @@
   line-height: 34.55px;
   color: #FFFFFF !important;
 }
+
+/* testimonials */
 
 .testimonials {
     margin-top: 200px;
@@ -241,6 +196,8 @@
   line-height: 28.79px;
   color:#E5E5E5 !important;
 }
+
+/* carousel */
 
 .quoteGrid {
   display: flex;
@@ -308,6 +265,8 @@
   color: #1044FC;
 }
 
+/* connect */
+
 .connect {
   margin-top: 200px;
   height: 279px;
@@ -346,6 +305,8 @@
   background-color: #FFFFFF !important;
   color: #000000 !important;
 }
+
+/* footer */
 
 .footer {
   padding: 50px 10px;
